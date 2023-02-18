@@ -1,0 +1,248 @@
+body{
+   font-family:'karla',sans-serif ; 
+}
+section{
+
+   
+    background-color: whitesmoke;
+    /* border: solid black 1px; */
+}
+.hero {
+    /* background-color:rgb(115, 115, 203); */
+    background-image: url("../src/images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+footer{
+   padding: 80px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width:400px ;
+    justify-content: space-around;
+    font-size: 20px;
+}
+ul.show{
+    display: block;
+}
+li{
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+.subtext{
+   font-size: 15px;
+   font-weight: 300;
+
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-text {
+    margin-left: 60px ;
+    margin-bottom: 200px;
+
+}
+.button{
+    width: 200px;
+    height: 55px;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+    
+
+}
+.button:hover{
+    background-color: #ef744b;
+}
+.button:active{
+    background-color: #A9A9A9;
+    color: #808080;
+}
+.socials{
+    padding-bottom: 200px;
+}
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+.social{
+    margin: 20px;
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.headshot{
+    width: 350px;
+    border-radius: 150px;
+
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+
+}
+.project-card{
+    width: 300px;
+    height: 500px;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 20px rgb(169, 167, 167);
+    border-radius: 50px 50px 30px 30px;
+    margin: 10px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+.project-image{
+    margin-top: 25px;
+    width: 300px;
+    border-radius: 250px;
+
+
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link{
+    text-decoration: none;
+    color: #ef744b;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hamburger{
+ display: none;
+}
+.hamburger:focus{
+    outline: 0;
+}
+@media only screen and (max-width: 1000px){
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+    }
+    ul{
+        display: none;
+        background-color: #2b2c38;
+        margin: 0px;
+    }
+    ul.show{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+
+    }
+    .logo{
+        display: none;
+    }
+
+    }
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color:#ef744b;;
+    padding: 10px;
+    width: 100%;
+    border-radius: 100px 100px 50px 50px;
+    align-items: center;
+
+  }
